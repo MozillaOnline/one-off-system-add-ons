@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+       xmlns="http://www.mozilla.org/2004/em-rdf#">
+  <r:Description about="urn:mozilla:install-manifest">
+    <id>baidu-code-update@mozillaonline.com</id>
+    <version>1.66</version>
+
+    <bootstrap>true</bootstrap>
+    <multiprocessCompatible>true</multiprocessCompatible>
+    <strictCompatibility>true</strictCompatibility>
+    <type>2</type>
+
+    <targetApplication>
+      <r:Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+        <minVersion>45.0</minVersion>
+        <maxVersion>60.*</maxVersion>
+      </r:Description>
+    </targetApplication>
+
+    <name>Baidu Search Update</name>
+    <homepageURL>https://www.firefox.com.cn</homepageURL>
+
+    <localized>
+      <r:Description>
+        <locale>zh-CN</locale>
+        <name>百度搜索更新</name>
+        <homepageURL>https://www.firefox.com.cn/</homepageURL>
+      </r:Description>
+    </localized>
+  </r:Description>
+</r:RDF>

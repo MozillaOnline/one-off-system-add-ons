@@ -4,7 +4,7 @@
        xmlns="http://www.mozilla.org/2004/em-rdf#">
   <r:Description about="urn:mozilla:install-manifest">
     <id>baidu-code-update@mozillaonline.com</id>
-    <version>1.66</version>
+    <version>1.67</version>
 
     <bootstrap>true</bootstrap>
     <multiprocessCompatible>true</multiprocessCompatible>
